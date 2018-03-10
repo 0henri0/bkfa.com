@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/fuck', function () {
+	    echo 1+2;
+	});
+Route::get('123', function () {
+	    echo 1+2;
+	});
